@@ -1,6 +1,9 @@
 from typing import List, Union, Optional
 
-from discord import (
+
+import discord
+from discord.ext import commands
+from discord.ext.commands import (
     User,
     Embed,
     AllowedMentions,
