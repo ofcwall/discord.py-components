@@ -3,11 +3,9 @@ from typing import Optional, Union, List, Iterable
 from discord import (
     PartialEmoji,
     Emoji,
-)
-from discord.ext import commands
-from discord.ext.commands import (
     TypeError,
 )
+from discord.ext import commands
 
 from uuid import uuid1
 from enum import IntEnum
