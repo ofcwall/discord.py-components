@@ -1,10 +1,11 @@
 from typing import Optional, Union, List, Iterable
 
-import discord
-from discord.ext import commands
-from discord.ext.commands import (
+from discord import (
     PartialEmoji,
     Emoji,
+)
+from discord.ext import commands
+from discord.ext.commands import (
     TypeError,
 )
 
