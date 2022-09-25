@@ -5,7 +5,7 @@ from discord import (
     Embed,
     Attachment,
     AllowedMentions,
-    BadArgument,
+    TypeError,
     File,
     MessageFlags,
 )
